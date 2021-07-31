@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     init() {
         FacadeDemo().run()
+        BridgeDemo().run()
     }
     var body: some View {
         Text("Hello, world!")

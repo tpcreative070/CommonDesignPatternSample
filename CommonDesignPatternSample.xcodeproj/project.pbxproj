@@ -19,6 +19,13 @@
 		31FB8D6A26B50856001F8C35 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D6926B50856001F8C35 /* Square.swift */; };
 		31FB8D6C26B5088A001F8C35 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D6B26B5088A001F8C35 /* Circle.swift */; };
 		31FB8D6E26B508A9001F8C35 /* ShapeMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D6D26B508A9001F8C35 /* ShapeMaker.swift */; };
+		31FB8D7126B525BE001F8C35 /* Implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D7026B525BE001F8C35 /* Implementation.swift */; };
+		31FB8D7326B525DA001F8C35 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D7226B525DA001F8C35 /* Abstraction.swift */; };
+		31FB8D7726B52630001F8C35 /* ConcreteImplementationA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D7626B52630001F8C35 /* ConcreteImplementationA.swift */; };
+		31FB8D7926B52640001F8C35 /* ConcreteImplementationB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D7826B52640001F8C35 /* ConcreteImplementationB.swift */; };
+		31FB8D7B26B5265F001F8C35 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D7A26B5265F001F8C35 /* Client.swift */; };
+		31FB8D7D26B52690001F8C35 /* BridgeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D7C26B52690001F8C35 /* BridgeDemo.swift */; };
+		31FB8D7F26B5296A001F8C35 /* BridgeRealTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D7E26B5296A001F8C35 /* BridgeRealTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +64,13 @@
 		31FB8D6926B50856001F8C35 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
 		31FB8D6B26B5088A001F8C35 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		31FB8D6D26B508A9001F8C35 /* ShapeMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeMaker.swift; sourceTree = "<group>"; };
+		31FB8D7026B525BE001F8C35 /* Implementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Implementation.swift; sourceTree = "<group>"; };
+		31FB8D7226B525DA001F8C35 /* Abstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
+		31FB8D7626B52630001F8C35 /* ConcreteImplementationA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteImplementationA.swift; sourceTree = "<group>"; };
+		31FB8D7826B52640001F8C35 /* ConcreteImplementationB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteImplementationB.swift; sourceTree = "<group>"; };
+		31FB8D7A26B5265F001F8C35 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		31FB8D7C26B52690001F8C35 /* BridgeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDemo.swift; sourceTree = "<group>"; };
+		31FB8D7E26B5296A001F8C35 /* BridgeRealTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeRealTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +121,7 @@
 		311E5ECC2699E2DC00D6BF1D /* CommonDesignPatternSample */ = {
 			isa = PBXGroup;
 			children = (
+				31FB8D6F26B5256A001F8C35 /* Bridge */,
 				31FB8D6426B502AA001F8C35 /* FacadePattern */,
 				311E5ECD2699E2DC00D6BF1D /* CommonDesignPatternSampleApp.swift */,
 				311E5ECF2699E2DC00D6BF1D /* ContentView.swift */,
@@ -130,6 +145,7 @@
 			children = (
 				311E5EDF2699E2DD00D6BF1D /* CommonDesignPatternSampleTests.swift */,
 				311E5EE12699E2DD00D6BF1D /* Info.plist */,
+				31FB8D7E26B5296A001F8C35 /* BridgeRealTest.swift */,
 			);
 			path = CommonDesignPatternSampleTests;
 			sourceTree = "<group>";
@@ -154,6 +170,19 @@
 				31FB8D6226B5029F001F8C35 /* FacadeDemo.swift */,
 			);
 			path = FacadePattern;
+			sourceTree = "<group>";
+		};
+		31FB8D6F26B5256A001F8C35 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				31FB8D7026B525BE001F8C35 /* Implementation.swift */,
+				31FB8D7226B525DA001F8C35 /* Abstraction.swift */,
+				31FB8D7626B52630001F8C35 /* ConcreteImplementationA.swift */,
+				31FB8D7826B52640001F8C35 /* ConcreteImplementationB.swift */,
+				31FB8D7A26B5265F001F8C35 /* Client.swift */,
+				31FB8D7C26B52690001F8C35 /* BridgeDemo.swift */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,11 +316,17 @@
 			files = (
 				31FB8D6C26B5088A001F8C35 /* Circle.swift in Sources */,
 				31FB8D6A26B50856001F8C35 /* Square.swift in Sources */,
+				31FB8D7D26B52690001F8C35 /* BridgeDemo.swift in Sources */,
 				31FB8D6826B50838001F8C35 /* Rectangle.swift in Sources */,
 				31FB8D6326B5029F001F8C35 /* FacadeDemo.swift in Sources */,
+				31FB8D7326B525DA001F8C35 /* Abstraction.swift in Sources */,
+				31FB8D7126B525BE001F8C35 /* Implementation.swift in Sources */,
 				311E5ED02699E2DC00D6BF1D /* ContentView.swift in Sources */,
+				31FB8D7B26B5265F001F8C35 /* Client.swift in Sources */,
 				311E5ECE2699E2DC00D6BF1D /* CommonDesignPatternSampleApp.swift in Sources */,
+				31FB8D7926B52640001F8C35 /* ConcreteImplementationB.swift in Sources */,
 				31FB8D6E26B508A9001F8C35 /* ShapeMaker.swift in Sources */,
+				31FB8D7726B52630001F8C35 /* ConcreteImplementationA.swift in Sources */,
 				31FB8D6626B50811001F8C35 /* Shape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FB8D7F26B5296A001F8C35 /* BridgeRealTest.swift in Sources */,
 				311E5EE02699E2DD00D6BF1D /* CommonDesignPatternSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
