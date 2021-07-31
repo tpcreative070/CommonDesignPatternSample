@@ -11,6 +11,7 @@ struct ContentView: View {
     init() {
         FacadeDemo().run()
         BridgeDemo().run()
+        StrategyDemo().run()
     }
     var body: some View {
         Text("Hello, world!")

@@ -26,6 +26,12 @@
 		31FB8D7B26B5265F001F8C35 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D7A26B5265F001F8C35 /* Client.swift */; };
 		31FB8D7D26B52690001F8C35 /* BridgeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D7C26B52690001F8C35 /* BridgeDemo.swift */; };
 		31FB8D7F26B5296A001F8C35 /* BridgeRealTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D7E26B5296A001F8C35 /* BridgeRealTest.swift */; };
+		31FB8D8226B531F4001F8C35 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D8126B531F4001F8C35 /* Strategy.swift */; };
+		31FB8D8426B5323C001F8C35 /* OperationAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D8326B5323C001F8C35 /* OperationAdd.swift */; };
+		31FB8D8626B53291001F8C35 /* OperationSubstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D8526B53291001F8C35 /* OperationSubstract.swift */; };
+		31FB8D8826B532C9001F8C35 /* OperationMultiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D8726B532C9001F8C35 /* OperationMultiply.swift */; };
+		31FB8D8A26B5330F001F8C35 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D8926B5330F001F8C35 /* Context.swift */; };
+		31FB8D8C26B533B1001F8C35 /* StrategyDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D8B26B533B1001F8C35 /* StrategyDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +77,12 @@
 		31FB8D7A26B5265F001F8C35 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		31FB8D7C26B52690001F8C35 /* BridgeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeDemo.swift; sourceTree = "<group>"; };
 		31FB8D7E26B5296A001F8C35 /* BridgeRealTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeRealTest.swift; sourceTree = "<group>"; };
+		31FB8D8126B531F4001F8C35 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		31FB8D8326B5323C001F8C35 /* OperationAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationAdd.swift; sourceTree = "<group>"; };
+		31FB8D8526B53291001F8C35 /* OperationSubstract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationSubstract.swift; sourceTree = "<group>"; };
+		31FB8D8726B532C9001F8C35 /* OperationMultiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationMultiply.swift; sourceTree = "<group>"; };
+		31FB8D8926B5330F001F8C35 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		31FB8D8B26B533B1001F8C35 /* StrategyDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +133,7 @@
 		311E5ECC2699E2DC00D6BF1D /* CommonDesignPatternSample */ = {
 			isa = PBXGroup;
 			children = (
+				31FB8D8026B531A4001F8C35 /* Strategy */,
 				31FB8D6F26B5256A001F8C35 /* Bridge */,
 				31FB8D6426B502AA001F8C35 /* FacadePattern */,
 				311E5ECD2699E2DC00D6BF1D /* CommonDesignPatternSampleApp.swift */,
@@ -183,6 +196,19 @@
 				31FB8D7C26B52690001F8C35 /* BridgeDemo.swift */,
 			);
 			path = Bridge;
+			sourceTree = "<group>";
+		};
+		31FB8D8026B531A4001F8C35 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				31FB8D8126B531F4001F8C35 /* Strategy.swift */,
+				31FB8D8326B5323C001F8C35 /* OperationAdd.swift */,
+				31FB8D8526B53291001F8C35 /* OperationSubstract.swift */,
+				31FB8D8726B532C9001F8C35 /* OperationMultiply.swift */,
+				31FB8D8926B5330F001F8C35 /* Context.swift */,
+				31FB8D8B26B533B1001F8C35 /* StrategyDemo.swift */,
+			);
+			path = Strategy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,13 +343,19 @@
 				31FB8D6C26B5088A001F8C35 /* Circle.swift in Sources */,
 				31FB8D6A26B50856001F8C35 /* Square.swift in Sources */,
 				31FB8D7D26B52690001F8C35 /* BridgeDemo.swift in Sources */,
+				31FB8D8626B53291001F8C35 /* OperationSubstract.swift in Sources */,
 				31FB8D6826B50838001F8C35 /* Rectangle.swift in Sources */,
+				31FB8D8A26B5330F001F8C35 /* Context.swift in Sources */,
 				31FB8D6326B5029F001F8C35 /* FacadeDemo.swift in Sources */,
+				31FB8D8226B531F4001F8C35 /* Strategy.swift in Sources */,
 				31FB8D7326B525DA001F8C35 /* Abstraction.swift in Sources */,
+				31FB8D8C26B533B1001F8C35 /* StrategyDemo.swift in Sources */,
+				31FB8D8426B5323C001F8C35 /* OperationAdd.swift in Sources */,
 				31FB8D7126B525BE001F8C35 /* Implementation.swift in Sources */,
 				311E5ED02699E2DC00D6BF1D /* ContentView.swift in Sources */,
 				31FB8D7B26B5265F001F8C35 /* Client.swift in Sources */,
 				311E5ECE2699E2DC00D6BF1D /* CommonDesignPatternSampleApp.swift in Sources */,
+				31FB8D8826B532C9001F8C35 /* OperationMultiply.swift in Sources */,
 				31FB8D7926B52640001F8C35 /* ConcreteImplementationB.swift in Sources */,
 				31FB8D6E26B508A9001F8C35 /* ShapeMaker.swift in Sources */,
 				31FB8D7726B52630001F8C35 /* ConcreteImplementationA.swift in Sources */,
