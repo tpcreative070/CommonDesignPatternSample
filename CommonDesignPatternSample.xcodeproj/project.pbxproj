@@ -13,6 +13,12 @@
 		311E5ED52699E2DC00D6BF1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311E5ED42699E2DC00D6BF1D /* Preview Assets.xcassets */; };
 		311E5EE02699E2DD00D6BF1D /* CommonDesignPatternSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311E5EDF2699E2DD00D6BF1D /* CommonDesignPatternSampleTests.swift */; };
 		311E5EEB2699E2DD00D6BF1D /* CommonDesignPatternSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311E5EEA2699E2DD00D6BF1D /* CommonDesignPatternSampleUITests.swift */; };
+		31FB8D6326B5029F001F8C35 /* FacadeDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D6226B5029F001F8C35 /* FacadeDemo.swift */; };
+		31FB8D6626B50811001F8C35 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D6526B50811001F8C35 /* Shape.swift */; };
+		31FB8D6826B50838001F8C35 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D6726B50838001F8C35 /* Rectangle.swift */; };
+		31FB8D6A26B50856001F8C35 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D6926B50856001F8C35 /* Square.swift */; };
+		31FB8D6C26B5088A001F8C35 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D6B26B5088A001F8C35 /* Circle.swift */; };
+		31FB8D6E26B508A9001F8C35 /* ShapeMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FB8D6D26B508A9001F8C35 /* ShapeMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		311E5EE62699E2DD00D6BF1D /* CommonDesignPatternSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonDesignPatternSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		311E5EEA2699E2DD00D6BF1D /* CommonDesignPatternSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonDesignPatternSampleUITests.swift; sourceTree = "<group>"; };
 		311E5EEC2699E2DD00D6BF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31FB8D6226B5029F001F8C35 /* FacadeDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeDemo.swift; sourceTree = "<group>"; };
+		31FB8D6526B50811001F8C35 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		31FB8D6726B50838001F8C35 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		31FB8D6926B50856001F8C35 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		31FB8D6B26B5088A001F8C35 /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		31FB8D6D26B508A9001F8C35 /* ShapeMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,7 @@
 		311E5ECC2699E2DC00D6BF1D /* CommonDesignPatternSample */ = {
 			isa = PBXGroup;
 			children = (
+				31FB8D6426B502AA001F8C35 /* FacadePattern */,
 				311E5ECD2699E2DC00D6BF1D /* CommonDesignPatternSampleApp.swift */,
 				311E5ECF2699E2DC00D6BF1D /* ContentView.swift */,
 				311E5ED12699E2DC00D6BF1D /* Assets.xcassets */,
@@ -128,6 +141,19 @@
 				311E5EEC2699E2DD00D6BF1D /* Info.plist */,
 			);
 			path = CommonDesignPatternSampleUITests;
+			sourceTree = "<group>";
+		};
+		31FB8D6426B502AA001F8C35 /* FacadePattern */ = {
+			isa = PBXGroup;
+			children = (
+				31FB8D6526B50811001F8C35 /* Shape.swift */,
+				31FB8D6726B50838001F8C35 /* Rectangle.swift */,
+				31FB8D6926B50856001F8C35 /* Square.swift */,
+				31FB8D6B26B5088A001F8C35 /* Circle.swift */,
+				31FB8D6D26B508A9001F8C35 /* ShapeMaker.swift */,
+				31FB8D6226B5029F001F8C35 /* FacadeDemo.swift */,
+			);
+			path = FacadePattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31FB8D6C26B5088A001F8C35 /* Circle.swift in Sources */,
+				31FB8D6A26B50856001F8C35 /* Square.swift in Sources */,
+				31FB8D6826B50838001F8C35 /* Rectangle.swift in Sources */,
+				31FB8D6326B5029F001F8C35 /* FacadeDemo.swift in Sources */,
 				311E5ED02699E2DC00D6BF1D /* ContentView.swift in Sources */,
 				311E5ECE2699E2DC00D6BF1D /* CommonDesignPatternSampleApp.swift in Sources */,
+				31FB8D6E26B508A9001F8C35 /* ShapeMaker.swift in Sources */,
+				31FB8D6626B50811001F8C35 /* Shape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
